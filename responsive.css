@@ -1,0 +1,34 @@
+@media screen and (max-width: 1005px){
+  .menu{
+    display: none;
+  }
+.navega{
+    position: relative;
+}
+.logo{
+    margin: 0px;
+    text-align: center;
+}
+.header{
+    padding-top: 50px;
+}
+.textmenu1{
+    flex: 100%;
+    margin: 5%;
+    text-align:center ;
+}
+.teextmenu1 p{
+    text-align: center;
+}
+.imgmenu1{
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+
+}
