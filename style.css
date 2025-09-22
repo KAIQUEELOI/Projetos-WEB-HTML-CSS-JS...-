@@ -5,6 +5,7 @@ body{
 }
 .logo h1{
     font-family: "Courgette", cursive; 
+
 }
 .navega{
     background-color: rgb(255, 255, 255);
@@ -23,16 +24,14 @@ body{
     border: 1px solid rgb(255, 255, 255);
     text-align:left;
     flex: 20%;
-    margin-left: 20px;
+    margin-left: 140px;
 }
-
-.imgmenu1{
-background-image: url(img/)
-} 
-
+ 
 .header{
-    padding-top: 
-    100px;
+    padding-top: 100px;
+    display: flex;
+    flex-flow:  row wrap;
+
 }
 .menu{
     background-color: rgb(255, 255, 255);
@@ -80,34 +79,45 @@ background-image: url(img/)
 .menu a:hover{
    color: red;
 }
+
+
+
  
-.menu1{
-    background-color: rgb(255, 255, 255);
+.header{
     display: flex;
-    justify-content:center;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 
 }
-
 .textmenu1{
     flex: 40%;
-    margin-left: 20px;
+    margin-left: 10%;
     color: #180F4A;
 }
 
 .textmenu1 h2{
-    font-weight:900px ;
+    font-weight:900;
     font-size: 20px;
     padding: 0%;
     margin: 0%;
 }
 
+.textmenu1 p{
+    text-align: left;
+}
+
 
 .imgmenu1{
     flex: 40%;
-    margin-right: 20px;
+    margin-right: 10%;
+    text-align: center;
+    height: 500px;
+}
+
+.imgmenu1 img{
+    flex: 40%;
+    margin-right: 10%;
     text-align: center;
     height: 500px;
 }
@@ -126,6 +136,8 @@ background-image: url(img/)
 .btn:hover{
     background-color: #180F4A;
 }
+
+
 
 section{
 display: inline-block;
@@ -170,8 +182,8 @@ color: #180F4A;
 .container{
     border:  2px solid rgb(208, 2, 105);
     border-radius: 10px;
-    height: 260px;
-    width: 30%x;
+    height: 340px;
+    width: 50%;
     
 }
 
