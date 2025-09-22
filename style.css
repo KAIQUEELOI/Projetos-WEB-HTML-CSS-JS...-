@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+     font-family: "Roboto", sans-serif;
+}
+.logo h1{
+    font-family: "Courgette", cursive; 
+}
+.navega{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    position:fixed;
+    width: 100%;
+}
+
+
+.logo{
+    color: rgb(9, 41, 118);
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    text-align:left;
+    flex: 20%;
+    margin-left: 20px;
+}
+
+.imgmenu1{
+background-image: url(img/)
+} 
+
+.header{
+    padding-top: 
+    100px;
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    flex: 80%;
+    text-align: right;
+    padding: 20px;
+}
+
+
+
+.menu a{
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+    margin-right: 10px;
+
+
+}
+
+.menu a:hover{
+    background-color: rgb(9, 16, 107);
+    color: white;
+    padding: 30px;
+    border-radius: 9px;
+
+}
+
+#atendimento{
+ color: white;
+ background-color: rgb(16, 28, 133);
+ border-radius: 6px;
+ padding: 10px 16px ;
+  
+}
+
+#atendimento:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(31, 4, 110);
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.menu a:hover{
+   color: red;
+}
+ 
+.menu1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textmenu1{
+    flex: 40%;
+    margin-left: 20px;
+    color: #180F4A;
+}
+
+.textmenu1 h2{
+    font-weight:900px ;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.imgmenu1{
+    flex: 40%;
+    margin-right: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    background-color: #ff2978;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.btn:hover{
+    background-color: #180F4A;
+}
+
+section{
+display: inline-block;
+margin-top: 80px;
+
+
+height: 400px;
+width: 90%;
+padding: 5%;
+text-align: center;
+}
+
+section h2{
+width: 100%;
+font-size: 50px;
+margin: 0p;
+font-family: "Lobster",cursive;
+font-weight: bold;
+color: #180F4A;
+
+}
+.h2menu2{
+  text-align: center;
+  font-size: 30px;
+  color: #180F4A;
+}
+
+.menu3{
+    display: flex;
+    gap: 50px;
+    height: 20px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.menu3 h3,p{
+    text-align: center;
+    
+}
+
+.container{
+    border:  2px solid rgb(208, 2, 105);
+    border-radius: 10px;
+    height: 260px;
+    width: 30%x;
+    
+}
+
+.container:hover{
+    background-color: rgb(208, 2, 105);
+    color: white;
+    padding: 40px;
+
+}
+
+.container:hover img{
+    display: none;
+}
+
+.container:hover .containetext{
+    display: none;
+}
+
+.container:hover .containeouculto{
+    display: block;
+}
+
+.iconcontainer{
+    display: flex;
+    justify-self: center;
+}
+
+
+.containeouculto{
+    display: none;
+
+}
+
+footer{
+    margin-top: 100px;
+    height: 300px;
+    text-align: center;
+    border-top: 5px solid #ff2978;
+    background-image:linear-gradient(180deg, #180F4A, #090422, black);
+    color: white;
+    
+
+
+}
+
+.logorodape{
+    padding: 100px;
+}
+
+footer h2{
+    font-family: "Courgette", cursive;
+    padding: 0%;
+}
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+}
